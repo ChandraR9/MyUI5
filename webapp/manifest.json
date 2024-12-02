@@ -1,0 +1,98 @@
+{
+    "sap.app":{
+        "id": "com.dte.bw.exp",
+        "type": "application",
+        "ach": "BW-SCM-SC",
+        "description": "{{appDescription}}",
+        "title": "{{appTitle}}",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0"
+        }
+    },
+
+    "sap.ui":{
+        "deviceTypes":{
+            "desktop": true,
+            "phone": true,
+            "tablet": true
+        },
+        "technology": "UI5",
+        "fullWidth": true,
+        "supportedThemes": ["sap_fiori_3","sap_fiori_3_dark"]
+
+    },
+    "sap.ui5":{
+        "dependencies": {
+            "minUI5Version": "1.100.0",
+            "libs": {
+                "sap.m":{"minVersion": "1.100.0"},
+                "sap.ui.layout": {"minVersion": "1.100.0"}
+            }
+
+        },
+
+        "contentDensities": {"compact": true, "cozy": true},
+        "rootView":{
+            "viewName": "com.dte.bw.exp.view.App",
+            "type": "XML",
+            "id": "idRootView"
+
+        },
+        "routing": {
+            "config":{
+
+                "viewPath": "com.dte.bw.exp.view",
+                "viewType": "XML",
+                "controlId": "idAppCon",
+                "clearControlAggregation": true
+            },
+            "routes":[
+                {
+                    "name": "spiderman",
+                    "pattern": "",
+                    "target": ["modi","putin"]
+                },
+                {
+                    "name": "superman",
+                    "pattern": "fruits/{fruitId}",
+                    "target":["modi","macron"]
+                }
+            ],
+            "targets": {
+                "modi":{
+                "viewName": "View1",
+                "viewId": "idView1",
+                "controlAggregation": "masterPages"
+                   },
+                 "putin":{
+                    "viewName": "Empty",
+                    "viewId": "idEmpty",
+                    "controlAggregation": "detailPages"
+                 },
+                 "macron":{
+                    "viewName": "View2",
+                    "viewId": "idView2",
+                    "controlAggregation": "detailPages"
+                 }  
+            }
+        },  
+
+        "models": {
+            "":{
+                "type": "sap.ui.model.json.JSONModel", 
+                "uri": "model/mockdata/fruits.json",
+                "settings": {},
+                "preload": true
+            },
+         "i18n":{
+                    "type": "sap.ui.model.resource.ResourceModel",
+                    "settings":{
+                        "bundleUrl": "i18n/18n.properties"
+                    },
+                    "preload": false
+                }
+            }
+       
+    }
+}

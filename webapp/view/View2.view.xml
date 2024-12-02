@@ -1,0 +1,18 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+            xmlns="sap.m"
+            controllerName="com.dte.bw.exp.controller.View2">
+    <Page title="View2" showNavButton="true" navButtonPress="onBack">
+        <content>
+            <!-- <Button text="Back" press="onBack"></Button> -->
+            <ObjectHeader title= "{name}" intro="{type}" number="{price}" numberUnit="{currency}" icon="{image}" ></ObjectHeader>
+        </content>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer ></ToolbarSpacer>
+                    <Button id="idAccept" text="Save" type="Accept" press="onSave" ></Button>
+                    <Button id="idReject" text="Cancel" type="Reject" press="onCancel"></Button>
+                
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

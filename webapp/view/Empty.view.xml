@@ -1,0 +1,10 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+            xmlns="sap.m"
+            controllerName="com.dte.bw.exp.controller.Empty">
+    <Page >
+        <content>
+            <Image src="https://www.vice.com/wp-content/uploads/sites/2/2019/11/1573610428860-Avatar-2.jpeg"></Image>
+        </content>
+     
+    </Page>
+</mvc:View>

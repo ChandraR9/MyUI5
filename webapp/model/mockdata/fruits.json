@@ -1,0 +1,146 @@
+{
+    "fruits": [
+                {
+                "fruitNum": "1",
+                "name"    : "Apple",
+                "category": "alkaline",
+                "type"    : "juicy",
+                "color"   : "Red",
+                "price"   : "20",
+                "currency": "INR",
+                "status"  : "Available",
+                "image"   : "https://m.media-amazon.com/images/I/51LwyQSzynL._AC_SL1000_.jpg",
+                "healthBenefit": "Rich in fiber and antioxidants"    
+                },
+                {
+                "fruitNum": "2",
+                "name"    : "Banana",
+                "category": "alkaline",
+                "type"    : "juicy",
+                "color"   : "Yellow",
+                "price"   : "3",
+                "currency": "USD",
+                "status"  : "Available",
+                "image"   : "https://m.media-amazon.com/images/I/51qi7enJVLL._AC_SL1500_.jpg",
+                "healthBenefit": "Rich in potassium"    
+                },
+                {
+                    "fruitNum": "3",
+                    "name"    : "Lyche",
+                    "category": "citrus",
+                    "type"    : "juicy",
+                    "color"   : "Pink",
+                    "price"   : "1",
+                    "currency": "USD",
+                    "status"  : "Available",
+                    "image"   : "https://m.media-amazon.com/images/I/21ectHQhtmL.jpg",
+                    "healthBenefit": "Rich in calcium"    
+                },
+                {
+                    "fruitNum": "4",
+                    "name"    : "Orange",
+                    "category": "citrus",
+                    "type"    : "juicy",
+                    "color"   : "Orange",
+                    "price"   : "9",
+                    "currency": "USD",
+                    "status"  : "Available",
+                    "image"   : "https://cdn.britannica.com/24/174524-050-A851D3F2/Oranges.jpg",
+                    "healthBenefit": "Rich in calcium"    
+                },
+                {
+                    "fruitNum": "5",
+                    "name"    : "Lemon",
+                    "category": "citrus",
+                    "type"    : "juicy",
+                    "color"   : "Yellow",
+                    "price"   : "1",
+                    "currency": "USD",
+                    "status"  : "UnAvailable",
+                    "image"   : "https://m.media-amazon.com/images/I/710O+MVcd6L._SL1500_.jpg",
+                    "healthBenefit": "Rich in calcium"    
+                },
+                {
+                    "fruitNum": "6",
+                    "name"    : "Grapes",
+                    "category": "citrus",
+                    "type"    : "juicy",
+                    "color"   : "Pink",
+                    "price"   : "4",
+                    "currency": "AED",
+                    "status"  : "Available",
+                    "image"   : "https://img.livestrong.com/-/clsd/getty/82965f93904649bba70ac8577b9335b5.jpg",
+                    "healthBenefit": "Rich in calcium"    
+                },
+                {
+                    "fruitNum": "7",
+                    "name"    : "Pineapple",
+                    "category": "citrus",
+                    "type"    : "juicy",
+                    "color"   : "Yellow",
+                    "price"   : "10",
+                    "currency": "USD",
+                    "status"  : "Available",
+                    "image"   : "https://m.media-amazon.com/images/I/51LwyQSzynL._AC_SL1000_.jpg",
+                    "healthBenefit": "Rich in calcium"    
+                } ],
+                "suppliers":[
+                    {
+                        "supplierNum"   : "1",
+                        "name"          : "Haldiram",
+                        "city"          : "Delhi",
+                        "sinceWhen"     : 1984,
+                        "fruits"        : ["apple","mango"],
+                        "contactPerson" : "Abc",
+                        "contactEmail"  : "test@test.com",
+                        "contactNumber" : 1213456
+                    },
+                    {
+                        "supplierNum"   : "2",
+                        "name"          : "Alphansa",
+                        "city"          : "Hyderabad",
+                        "sinceWhen"     : 1954,
+                        "fruits"        : ["apple","mango","grapes"],
+                        "contactPerson" : "Baig",
+                        "contactEmail"  : "testd@test.com",
+                        "contactNumber" : 12234456
+                    },
+                    {
+                        "supplierNum"   : "3",
+                        "name"          : "Totaram",
+                        "city"          : "Mumbai",
+                        "sinceWhen"     : 1999,
+                        "fruits"        : ["orange","mango"],
+                        "contactPerson" : "Tota",
+                        "contactEmail"  : "tota@test.com",
+                        "contactNumber" : 55555456
+                    }
+                ],
+                "cities": [
+                    {
+                        "cityNum"   : "1",
+                        "name"      : "Uttar Pradesh",
+                        "population": "23 crore",
+                        "state"     : "Lucknow",
+                        "famousFor" : "Tombs"
+                    },
+                    {
+                        "cityNum"   : "2",
+                        "name"      : "Hyderabd",
+                        "population": "14 crore",
+                        "state"     : "Telangana",
+                        "famousFor" : "Biryani"
+                    },
+                    {
+                        "cityNum"   : "3",
+                        "name"      : "Andhra Pradesh",
+                        "population": "20 crore",
+                        "state"     : "Andhra",
+                        "famousFor" : "wheat"
+                    }
+
+
+                ]
+
+
+}

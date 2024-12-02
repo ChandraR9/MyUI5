@@ -1,0 +1,62 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+            xmlns="sap.m"
+            controllerName="com.dte.bw.exp.controller.View1">
+    <Page title="View1">
+    <content>
+        <SearchField id="idSearch"></SearchField>
+        <List id="idList" items="{/fruits}" mode="SingleSelectMaster" selectionChange="onSelectionChange">
+        <items>
+        
+            <ObjectListItem title= "{name}" intro="{type}" number="{price}" numberUnit="{currency}" icon="{image}"
+            
+             ></ObjectListItem>
+
+            
+            <!--
+            // List of examples of List items 
+            <DisplayListItem label="Apple" value="Best antibiotic"></DisplayListItem>
+            // <DisplayListItem label="Banana" value="Best Potassium"></DisplayListItem> 
+            <StandardListItem title="Pineapple" description="Good for glow" icon="https://m.media-amazon.com/images/I/51LwyQSzynL._AC_SL1000_.jpg" ></StandardListItem>
+            <InputListItem>
+                <content>
+                    <HBox >
+                        <Label class="SapUiSmallMarginTop" text="How many Cherries you want?"></Label>
+                        <Input type="Number" class="sapUiSmallMarginBeing" ></Input>
+                    </HBox>    
+                </content> 
+            </InputListItem>
+            <CustomListItem >
+                <content>
+                    <HBox >
+                        <Image width="50px" height="50px" src="https://m.media-amazon.com/images/I/21ectHQhtmL.jpg"></Image>
+                    
+                    <VBox >
+                        <Text text="Do u know this item?"></Text>
+                        <Switch ></Switch>
+                    </VBox>
+                    </HBox>
+                </content>
+            </CustomListItem>
+
+            <ObjectListItem title="Banana" intro="Good source of potassium" number="2" numberUnit="lb" icon="https://m.media-amazon.com/images/I/51qi7enJVLL._AC_SL1500_.jpg">
+                <attributes>
+                    <ObjectAttribute title="Color" text="Green"></ObjectAttribute>
+                    <ObjectAttribute title="Season" text="Winter"></ObjectAttribute>
+                </attributes>
+                <firstStatus>
+                    <ObjectStatus text="Available" state="Success" ></ObjectStatus>
+                </firstStatus>
+            </ObjectListItem> -->
+
+
+
+        </items>
+        
+        </List>
+        <!-- <Button text="Next View" press="onNext"></Button> -->
+    </content>
+    <headerContent>
+        <Button icon="sap-icon://initiative" tooltip="Navigate to Next" press="onNext"></Button>
+    </headerContent>
+    </Page>
+</mvc:View>
